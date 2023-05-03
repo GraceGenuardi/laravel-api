@@ -28,4 +28,4 @@ Route::get('/test', function () {
     ]);
 });
 
-Route::get('/projects', 'App\Http\Controllers\Api\ProjectController@index');
+Route::get('/posts', 'App\Http\Controllers\Api\ProjectController@index');
