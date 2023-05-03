@@ -23,7 +23,9 @@ Route::get('/posts', [PostController::class, 'index']);
 
 Route::get('/test', function () {
     return response()->json([
-        'name' => 'Gianluca',
+        'name' => 'Grace',
         'role' => 'admin'
     ]);
 });
+
+Route::get('/projects', 'App\Http\Controllers\Api\ProjectController@index');
