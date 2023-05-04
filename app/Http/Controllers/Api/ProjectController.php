@@ -13,4 +13,11 @@ class ProjectController extends Controller
 
         return response()->json($projects);
     }
+
+  // Definizione metodo della pagina dettaglio
+    public function dettaglio($id)
+    {
+        $progetto = Progetto::find($id);
+        return view('progetti.dettaglio', compact('progetto'));
+    }
 }
