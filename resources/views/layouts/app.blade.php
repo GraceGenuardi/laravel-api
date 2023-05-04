@@ -47,6 +47,7 @@
                             <a class="nav-link" href="{{ route('posts.index') }}">{{ __('Posts') }}</a>
                         </li>
                         @endauth
+                        
                     </ul>
 
                     <!-- Right Side Of Navbar -->
